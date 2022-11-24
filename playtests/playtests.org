@@ -4,9 +4,11 @@
 | Jordan | Nick | Josh | Tyler |
 
 *** Overview
-**** Testing: 
-***** General Feedback
-***** 4 Player Test
+**** Testing:
+- General feedback
+- 4-player Test
+- Component needs test
+  
 **** Score
 | Player | Score |
 |--------+-------|
