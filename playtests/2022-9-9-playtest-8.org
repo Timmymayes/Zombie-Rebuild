@@ -6,7 +6,7 @@ Friday, September 9th 2022
 [[file:images/4-player-setup.jpg]]
 
 ** Overview
-
+*** Testing Critera:
 - General feedback
 - 4-player Test
 - Component needs test
@@ -18,4 +18,45 @@ Friday, September 9th 2022
 | Josh   |    30 |
 | Nick   |    25 |
 | Jordan |    20 |
+
+* Recent Changes
+** Adjusted cards quickly to adjust the mix of resources
+** Adjusted Zombie Spawn Rate
+** 
+
+* Comments / Suggestions
+** Jordan
+*** End game
+- Target an 8 round game.
+- Focus on ending the game when 1 person's colony dies.
+- Define a more concrete colony death state
+** Nick
+*** Building Adjustments
+- Rather than having every advanced building built with adv. buildng material have advanced buildings instead require a matching adv. material of /their/ type.
+- Give buildings varied point values rather than just 1 pt per size.
+- Add scoring only buildings and theme those around recreation.
+- Have more buildings that simply just give a resource.
+*** Meeple / Class Adjustments
+- Cut the Chef
+- Blend Scientist and Scout
+- Maybe cut medic
+*** Population / Camp Management
+- Consider requiring feeding / healing or population degrades
+** Josh
+*** Building Adjustments
+- Sentry gun needs to be better.
+- Cut the map room and just adjust how new locations spawn.
+- Ramp up the farm's production.
+
+** Tyler
+*** Location Adjustment
+- More swingy locations with fewer types.
+- It's ok if the deck shuffles, these are not "named" locations.
+- Make sure more types of adv. resources are spread out
+*** Game Pace
+- Ramp things up a little faster in zombie intensity.
+- But ofc adjust killing capabilities to stay on par.
+*** Research Tracks
+- Rather than a handful of small basic research have a research track that will be more tied into the game.
+  - Certain threshholds trigger building bonsues, special abilities etc. 
 
