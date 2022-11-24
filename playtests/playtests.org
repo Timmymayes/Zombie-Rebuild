@@ -2,13 +2,14 @@
 ** Playtest #1
 #+Name: Participants - <2022-11-23 Wed>
 | Jordan | Nick | Josh | Tyler |
+- [[Feedback][Feedback]]
 
 *** Overview
 **** Testing:
 - General feedback
 - 4-player Test
 - Component needs test
-**** Rules Version Used:  [[../documentation/rules.org][Ver. 1]]
+**** Ruleset used:   [[../documentation/rules.org][Ver. 1]]
 **** Score
 | Player | Score |
 |--------+-------|
@@ -17,3 +18,5 @@
 | Nick   |    25 |
 | Jordan |    20 |
 
+
+*** <<Feedback>>
