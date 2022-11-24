@@ -8,7 +8,7 @@
 - General feedback
 - 4-player Test
 - Component needs test
-  
+**** Rules Version Used:  [[../documentation/rules.org][Ver. 1]]
 **** Score
 | Player | Score |
 |--------+-------|
