@@ -16,4 +16,8 @@
 |             |                         |                             |                                                                                    |
 
 
-[[file:images/initial-building-design.jpg]] [[file:images/initial-prototype.jpg]]
+* Initial Prototype Images
+- [[file:images/initial-prototype.jpg]]
+- [[file:images/initial-prototype-02.jpg]]
+
+
