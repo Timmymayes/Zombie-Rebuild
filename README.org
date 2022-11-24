@@ -1,0 +1,8 @@
+* Zombie Rebuild
+/Zombie Rebuild/ is a strategic, competititve city building game where players strive to build a stable colony in a post-apocolyptic world infested with zombies.
+
+Players will scavenge for resources, construct buildings and other add-ons to improve their colony and defend agaisnt an increasing onslaught of zombies.
+
+* Rule Summary
+
+* Links
