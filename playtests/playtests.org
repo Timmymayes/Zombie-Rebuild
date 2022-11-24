@@ -11,7 +11,7 @@
 | Player | Score |
 |--------+-------|
 | *Tyler*  |    32 |
-| Josh   |    30 |
+| Josh   |    30 |
 | Nick   |    25 |
 | Jordan |    20 |
 
