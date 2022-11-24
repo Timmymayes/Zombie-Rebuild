@@ -1,8 +1,11 @@
-* Overview
+* Playtest 1
+Friday, September 9th 2022
 #+Name: Participant
 | Jordan | Nick | Josh | Tyler |
 
-** Testing:
+
+** Overview
+
 - General feedback
 - 4-player Test
 - Component needs test
