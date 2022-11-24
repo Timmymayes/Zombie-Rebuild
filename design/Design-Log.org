@@ -7,10 +7,13 @@
 | Nov 22 2020 | Prototype - Initial     | Intial Components built     | Locking in mechanisms & representing them                                          |
 | Sep 05 2021 | Playtest - Local        | First 3p Playtest           | Played with Jim & Sandra - Good feedback from both. Best idea. Multi-size building |
 | Sep 12 2021 | Playtest - Solo         | 2-handed test               | Dialing in multi-size buildings                                                    |
-| Aug 23 2021  | Playtest - Local        | First 2p Test with Jordan   | Good feedback, requested more use of scientist / research.                         |
+| Aug 23 2021 | Playtest - Local        | First 2p Test with Jordan   | Good feedback, requested more use of scientist / research.                         |
 | Oct 15 2021 | Prototype - Development | Building design Update      | multi-sized buildings look nice                                                    |
 | Nov 29 2021 | Prototype - Development | Added 3d Printed Components | Implemented better components and solo playable                                    |
 | Feb 10 2022 | Prototype - Development | Full building set complete  | Game is now ready for solo playtesting                                             |
 | Jun 12 2022 | Playtest - Local        | Second 2p Test with Jordan  | Good feedback on research points.                                                  |
 | Sep 09 2022 | Playtest - Local        | First 4p Playtest           | Played with Josh, Jordan and Nick. Lots of good feedback. Major Course correction  |
 |             |                         |                             |                                                                                    |
+
+
+[[file:images/initial-building-design.jpg]] [[file:images/initial-prototype.jpg]]
