@@ -20,10 +20,9 @@ Friday, September 9th 2022
 | Jordan |    20 |
 
 * Recent Changes
-** Adjusted cards quickly to adjust the mix of resources
-** Adjusted Zombie Spawn Rate
-** 
-
+- Adjusted cards quickly to adjust the mix of resources
+- Adjusted Zombie Spawn Rate
+  
 * Comments / Suggestions
 ** Jordan
 *** End game
