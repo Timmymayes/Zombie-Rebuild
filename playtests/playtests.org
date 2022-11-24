@@ -1,3 +1,4 @@
 * Playtest Master Document
-** [[./2022-9-9-playtest-8.org][Playtest 8]]
+** [[./2022-9-9-playtest-8.org][Playtest 8]] - First 4 Player Game
+A solid playtest with 4 strong players. Good feedback about the overarching streamlining of the core systems. 
 

@@ -8,3 +8,4 @@ Players will scavenge for resources, construct buildings and other add-ons to im
 * Rule Summary
 
 * Links
+[[./playtests/playtests.org][Playtests]]
