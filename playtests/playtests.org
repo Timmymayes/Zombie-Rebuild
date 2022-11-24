@@ -1,22 +1,3 @@
 * Playtest Master Document
-** Playtest #1
-#+Name: Participants - <2022-11-23 Wed>
-| Jordan | Nick | Josh | Tyler |
-- [[Feedback][Feedback]]
+** [[./2022-9-9-playtest-1.org][Playtest 1]]
 
-*** Overview
-**** Testing:
-- General feedback
-- 4-player Test
-- Component needs test
-**** Ruleset used:   [[../documentation/rules.org][Ver. 1]]
-**** Score
-| Player | Score |
-|--------+-------|
-| *Tyler*  |    32 |
-| Josh   |    30 |
-| Nick   |    25 |
-| Jordan |    20 |
-
-
-*** <<Feedback>>
