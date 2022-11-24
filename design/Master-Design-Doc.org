@@ -1,1 +1,2 @@
-* Zombie Rebuild
+* Overview
+A competitive city building game set in a zombie apocalypse. Players will compete to 
