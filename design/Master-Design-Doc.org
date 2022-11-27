@@ -15,5 +15,23 @@ The game features meeples of various classes used by the players. The classes re
 | Purple | Leader    | Population    | Improved recruit | +1 population when depleting                                             | ---                        |
 | Blue   | Engineer  | Building      | Construct        | Combine building resource with any other to form an adv building resourd | ---                        |
 
+#+ATTR_HTML: :width: 30px
+#+ATTR_ORG: :width 30px
 [[./images/Black Meeple.png]] [[./images/White Meeple.png]] [[./images/Green Meeple.png]] [[./images/Orange Meeple.png]] [[./images/Red Meeple.png]] [[./images/Purple Meeple.png]] [[./images/Blue Meeple.png]]
 
+** Resource Typings
+The game's resource types come in both a basic and advanced form. The basic use is always available to the advanced resource as though you had 2 resources instead of 1. However some technology and buildings will increase this ratio.
+
+| Basic Resource | Use                                                         |
+|----------------+-------------------------------------------------------------|
+| Food           | Feed 2 population                                           |
+| Medicine       | Heal 2 population                                           |
+| Ammo           | Kill 2 Zombies                                              |
+| Zombies (dead) | Used in research                                            |
+| Building       | 1 resource per building size                                |
+| Population     | Used to activate buildings and fight zombies (No adv. form) |
+| Wild           | Can be used as Food/Medicine/Ammo/Building resource         |
+
+#+ATTR_HTML: :width: 30px
+#+ATTR_ORG: :width 30px
+[[./images/resource-food.png]] [[./images/resource-medicine.png]] [[./images/resource-ammo.png]] [[./images/resource-zombie.png]] [[./images/resource-building.png]] [[./images/resource-population.png]]
