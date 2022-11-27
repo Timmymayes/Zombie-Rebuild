@@ -19,11 +19,9 @@
 |             |                         |                             |                                                                                    |
 
 
-| test | table | here  |
-| this | that  | other |
-|      |       |       
 
- 
+
+
 
 * Initial Prototype Images
 - [[file:images/initial-prototype.jpg]]
