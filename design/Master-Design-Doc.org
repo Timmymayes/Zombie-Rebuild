@@ -7,15 +7,13 @@ The game features meeples of various classes used by the players. The classes re
 
 | Color  | Class     | Resource type | Base Action      | Explore                                                                  | Defence                    |
 |--------+-----------+---------------+------------------+--------------------------------------------------------------------------+----------------------------|
-| Purple | Leader    | Population    | Improved recruit | +1 population when depleting                                             | ---                        |
+| Black  | Scout     | Wild          | Scout            | Redraw upto 2 tokens                                                     | ---                        |
+| White  | Scientist | Zombies       | Research         | ---                                                                      | Move 2 zed to cold storage |
 | Green  | Soldier   | Ammo          | ---              | Kill 1 zombie                                                            | kill 1 additional zombie   |
 | Orange | Chef      | Food          | ---              | +1 food when exploring                                                   | Feed 2 pop free            |
-| Black  | Scout     | Wild          | Scout            | Redraw upto 2 tokens                                                     | ---                        |
-| Blue   | Engineer  | Building      | Construct        | Combine building resource with any other to form an adv building resourd | ---                        |
-| White  | Scientist | Zombies       | Research         | ---                                                                      | Move 2 zed to cold storage |
 | Red    | Medic     | Medicine      | Tend Wounded     | ---                                                                      | Heal 1 pop free            |
+| Purple | Leader    | Population    | Improved recruit | +1 population when depleting                                             | ---                        |
+| Blue   | Engineer  | Building      | Construct        | Combine building resource with any other to form an adv building resourd | ---                        |
 
-
-
-
+[[./images/Black Meeple.png]] [[./images/White Meeple.png]] [[./images/Green Meeple.png]] [[./images/Orange Meeple.png]] [[./images/Red Meeple.png]] [[./images/Purple Meeple.png]] [[./images/Blue Meeple.png]]
 
