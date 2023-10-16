@@ -1,0 +1,19 @@
+
+* Design-Log
+:PROPERTIES:
+:org-remark-file: Design-Log.org
+:END:
+
+** Major Rework
+
+** Major Rework
+
+** Major Rework
+
+** Major Rework
+
+** Major Rework
+
+** Major Rework
+
+** Major Rework
