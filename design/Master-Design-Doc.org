@@ -5,17 +5,17 @@ A competitive city building game set in a zombie apocalypse. Players work to bui
 ** Class Based Meeple system
 The game features meeples of various classes used by the players. The classes relate to the core resources which also relate up to various buildings.
 
-| Color  | Class     | type       | Action       | Explore                  | Defence       |
-|--------+-----------+------------+--------------+--------------------------+---------------|
-| Black  | Scout     | Wild       | Scout        | Redraw upto 2 tokens     | ---           |
-| White  | Scientist | Zombies    | Research     | ---                      | 2 zed to cold |
-| Green  | Soldier   | Ammo       | ---          | Kill 1 zed               | kill 1 zed    |
-| Orange | Chef      | Food       | ---          | +1 food when exploring   | Feed 2 pop    |
-| Red    | Medic     | Medicine   | Tend Wounded | ---                      | Heal 1 pop    |
-| Purple | Leader    | Population | recruit+     | +1 population on deplete | ---           |
-| Blue   | Engineer  | Building   | Construct    | build                    | ---           |
+| Color  | Class     | Resource type | Base Action      | Explore                                                                  | Defence                    |
+|--------+-----------+---------------+------------------+--------------------------------------------------------------------------+----------------------------|
+| Black  | Scout     | Wild          | Scout            | Redraw upto 2 tokens                                                     | ---                        |
+| White  | Scientist | Zombies       | Research         | ---                                                                      | Move 2 zed to cold storage |
+| Green  | Soldier   | Ammo          | ---              | Kill 1 zombie                                                            | kill 1 additional zombie   |
+| Orange | Chef      | Food          | ---              | +1 food when exploring                                                   | Feed 2 pop free            |
+| Red    | Medic     | Medicine      | Tend Wounded     | ---                                                                      | Heal 1 pop free            |
+| Purple | Leader    | Population    | Improved recruit | +1 population when depleting                                             | ---                        |
+| Blue   | Engineer  | Building      | Construct        | Combine building resource with any other to form an adv building resourd | ---                        |
 
-#+ATTR_HTML: :width 30px
+#+ATTR_HTML: :width: 30px
 #+ATTR_ORG: :width 30px
 [[./images/Black Meeple.png]] [[./images/White Meeple.png]] [[./images/Green Meeple.png]] [[./images/Orange Meeple.png]] [[./images/Red Meeple.png]] [[./images/Purple Meeple.png]] [[./images/Blue Meeple.png]]
 
@@ -32,9 +32,299 @@ The game's resource types come in both a basic and advanced form. The basic use 
 | Population     | Used to activate buildings and fight zombies (No adv. form) |
 | Wild           | Can be used as Food/Medicine/Ammo/Building resource         |
 
-#+ATTR_HTML: :width 30px
+#+ATTR_HTML: :width: 30px
 #+ATTR_ORG: :width 30px
 [[./images/resource-food.png]] [[./images/resource-medicine.png]] [[./images/resource-ammo.png]] [[./images/resource-zombie.png]] [[./images/resource-building.png]] [[./images/resource-population.png]]
+<<<<<<< HEAD
+=======
 
-#+ATTR_org: :width 300px
-[[~/Orgfiles/images/game design/Test.jpg]]
+
+** Buildings
+The buildings of the game also align to the resource typings and have various Tiers. One option is to have buildings flip when you reach certain tech levels. Or at certain tech levels Flip a building of your choice.
+
+** Location ideas
+| Abandoned Factory                 | Deep Canyon                          | Large Office Building                              | Ranger Station                      |
+| Abandoned Mine                    | Deep Canyon Bridge                   | Large Waterfall                                    | Rapids                              |
+| Abandoned Office                  | Deep Earth Exploration Facility      | Laundromat                                         | Recovery Ward                       |
+| Abandoned Quarry                  | Deep in the Earth                    | Lava Field                                         | Recreation Area                     |
+| Abandoned Road                    | Deep Sea Trench                      | Law Library                                        | Recreation Area                     |
+| Abandoned Subway                  | Deep Sea Tugboat (Ship)              | Law Offices                                        | Recreational Vehicle                |
+| Abandoned Warehouse               | Deep-Sea Research Submarine          | Levee                                              | Recreational Vehicle Park           |
+| Abbey                             | Delta                                | Library                                            | Red-light District                  |
+| Academy                           | Dense Jungle                         | Light Buoy                                         | Reef                                |
+| 250Active Volcano                 | Dental Center                        | Light House                                        | Refrigerated Ship                   |
+| Aerie                             | Department of Corrections Med Center | Lighted Data Tower                                 | Refrigerated Storage Facility       |
+| Aero Club                         | Department Store                     | Linguistics Institute                              | Regional Medical Center             |
+| Aerodrome                         | Desert                               | Liquor Store                                       | Rehabilitation Center               |
+| Agricultural Equipment Center     | Desert Basin                         | Listening Post                                     | Religious Rally                     |
+| Agricultural Experiments Facility | Desert Flats                         | Loading Dock                                       | Religious Retreat                   |
+| Agricultural Service Center       | Desert Hills                         | Loch                                               | Religious Sanctuary                 |
+| Air Cargo Terminal                | Desert Isle                          | Lodge                                              | Remote Island                       |
+| Air Passenger Terminal            | Deserted Island                      | Log Cabin                                          | Remote Listening Post               |
+| Air Purification Plant            | Destroyer                            | Long Range Patrol Ship                             | Remote Research Facility            |
+| Air Show                          | Detention Facility                   | Lookout Tower                                      | Remote Research Station             |
+| Airborne Aircraft                 | Diamond Field                        | Lumber Mill                                        | Rental Agency                       |
+| Airborne Research Facility        | Dike                                 | Machine Shop                                       | Research Facility                   |
+| Aircraft Bunker                   | Diner                                | Major Concert                                      | Research Laboratory                 |
+| Aircraft Carrier                  | Dirigible                            | Man-made Wonder                                    | Research Vessel                     |
+| Aircraft Charter                  | Distillery                           | Mansion                                            | Reservoir                           |
+| Aircraft Graveyard                | District Office                      | Manufacturing Plant                                | Reservoir                           |
+| Aircraft Museum                   | Ditch, or Small Canal                | Marina                                             | Residential Construction Area       |
+| Aircraft on the Ground            | Dive Boat                            | Marine & Boat Storage Facility                     | Resort                              |
+| Aircraft Repair Facility          | Dog Racing Track                     | Marine Repair Facility                             | Resort, Golf Course, & Country Club |
+| Aircraft Service Center           | Drag Strip                           | Marine Sanctuary                                   | Restaurant                          |
+| Aircraft Test Facility            | Drainage Canal                       | Marine Service & Fueling Station                   | Retail Store                        |
+| Airline Offices                   | Drive-In Movie Theatre               | Maritime Museum                                    | Retirement Community                |
+| Airpark                           | Drive-in Restaurant                  | Marketplace                                        | Rice Paddy                          |
+| Airport Control Tower             | Drug & Alcohol Treatment Facility    | Marsh                                              | Ridge                               |
+| Airport Hangar                    | Drug Laboratory                      | Marsh                                              | Ridge                               |
+| Airship                           | Dry Cleaner                          | Martial Arts Dojo                                  | Rifle & Pistol Range                |
+| Airstrip                          | Dry Dock                             | Martial Arts Facility                              | Rift Valley                         |
+| Alarm Monitoring Center           | Dry Flood Channel                    | Martial Arts Studio                                | River                               |
+| Alter                             | Dry Gulch or Canyon                  | Mausoleum                                          | River Canyon                        |
+| Amphibious Vehicle                | Dry Riverbed                         | Mausoleum Crypt                                    | River Ford                          |
+| Amphitheatre                      | Dungeon                              | Maze                                               | River Island                        |
+| Amusement Park                    | Election Headquarters                | Meadow                                             | River Lock                          |
+| Amusement Park                    | Electric Company                     | Media Ceremony/ Event                              | River Tunnel                        |
+| An Abandoned Ship                 | Electric Company                     | Medical Center                                     | Riverbank                           |
+| Anchorage                         | Electrical Storm                     | Medical Laboratory                                 | Riverbend                           |
+| Anchorage or Mooring              | Electronics Manufacturer             | Medical Library                                    | Riverboat (Paddlewheel)             |
+| Ancient Battleground              | Elementary School                    | Medical School                                     | Road                                |
+| Ancient Ruins                     | Elevated Train                       | Medium Boat                                        | Road Fork                           |
+| Animal Hospital                   | Embassy                              | Medium Office Building                             | Road Paving Company                 |
+| Animal Shelter                    | Emergency Response Center            | Meeting House                                      | Road Tunnel                         |
+| Animal Trail                      | Emergency Shelter                    | Megalithic Ruin                                    | Roadside Store                      |
+| Animal Trainer                    | Engine House (Train)                 | Memorial Library                                   | Rock Garden                         |
+| Annex                             | Engine Repair Shop                   | Memorial Park                                      | Rock Quarry                         |
+| Anomalous Mine                    | Environmental Rally                  | Mental Health Center                               | Rock Tower                          |
+| Antique Aircraft Airfield         | Esplanade                            | Mental Health Center                               | Rocky Desert                        |
+| Apartment Tower                   | Estate                               | Merchant Ship                                      | Rocky Ridges                        |
+| Aquarium                          | Estuary                              | Metalworks Mill                                    | Rooftop                             |
+| Aquatic Preserve                  | Excavation                           | Microwave Relay Tower                              | Rookery                             |
+| Aqueduct                          | Exibition Center                     | Microwave Transmitter Tower                        | Rope Bridge                         |
+| Arch Bridge                       | Exotic Restaurant                    | Military Academy                                   | Roundhouse (Train)                  |
+| Archaeology Dig Site              | Experimental Facility                | Military Airbase                                   | Rugged Coastline                    |
+| Archipelago                       | Experimental Station                 | Military Bombing Range                             | Ruins                               |
+| Arctic Fishing Cabin              | Experimental Vehicle                 | Military Cruiser                                   | Safari Preserve                     |
+| Arena                             | Exploration Submarine                | Military Facility                                  | Safe House                          |
+| Armory                            | Extra-Dimensional Gate               | Military Installation                              | Sailboat                            |
+| Arsenal                           | Factory                              | Military Institute                                 | Salt Flats                          |
+| Art Gallery                       | Fair                                 | Military-Industrial Complex                        | Salt Mine                           |
+| Art Institute                     | Fallen Log Foot Bridge               | Mill                                               | Sand & Gravel Pit                   |
+| Art Museum                        | Fallout Shelter                      | Mine                                               | Sandbar                             |
+| Art Museum                        | Falls                                | Missile Base                                       | Sanitarium                          |
+| Art School                        | Farm                                 | Mission (Church or Social)                         | Sargasso Sea                        |
+| Artic Expedition HQ               | Farm Equipment Dealership            | Mixed Jungle and Rice Paddies on Hillside Terraces | Satellite                           |
+| Auction House                     | Fast Food Restaurant                 | Mobile Home                                        | Satellite Communications Center     |
+| Audio Recording Studio            | Ferris Wheel                         | Mobile Home park                                   | Science & Industry Museum           |
+| Auto Body Shop                    | Ferry Boat                           | Mobile Radar Site                                  | Science Institute                   |
+| Auto Dealership                   | Ferry Embarkation Point              | Modern Bank                                        | Science Laboratory                  |
+| Auto Parts Shop                   | Ferryboat                            | Modern Hotel                                       | Science Museum                      |
+| Automobile Graveyard              | Festival                             | Monastery                                          | Science Museum                      |
+| Automobile Manufacturing Complex  | Festival                             | Monument                                           | Scientific Library                  |
+| Automobile Museum                 | Filtration Plant                     | Moon                                               | Scrap Metal Yard                    |
+| Automobile Race Track             | Fine Dining Restaurant               | Morgue                                             | Scrap Yard                          |
+| Automobile Tunnel                 | Fire Academy                         | Mosque                                             | Sculpture Garden                    |
+| Aviary                            | Fire Department                      | Motel                                              | Sea Banks                           |
+| Aviation Museum                   | Fire Station                         | Motocross or Dirt Bike Raceway                     | Sea Canyon                          |
+| Badlands                          | Fire Watchtower                      | Motor Speedway                                     | Sea Cargo Terminal                  |
+| Bail Bond House                   | Fireworks Display                    | Motorcycle Dealership                              | Sea Going Hydrofoil (Ship)          |
+| Ballet Studio                     | Fish Farm                            | Motorcycle Raceway                                 | Sea Passenger Terminal              |
+| Ballroom                          | Fish Hatchery                        | Mound                                              | Sea Trench                          |
+| Banquet Facility                  | Fishing Boat                         | Mountain Climbing Expedition                       | Seadrome                            |
+| Bar                               | Fishing Lodge                        | Mountain Meadow                                    | Seaplane Base                       |
+| Barbershop                        | Fishing Pier                         | Mountain Pass                                      | Secondary School                    |
+| Barge                             | Fishing Trawler (Small Ship)         | Mountain Peak                                      | Secret Military Facility            |
+| Barn                              | Fitness Center                       | Mountain Range                                     | Secret Stronghold                   |
+| Barracks                          | Fitness Center                       | Mountain Spring                                    | Secret Underground Stronghold       |
+| Baseball Park                     | Fixed Radar Site                     | Mountains                                          | Security Center                     |
+| Baseball Stadium                  | Fjord                                | Mountainside Cliff                                 | Sewer Company                       |
+| Basement                          | Flats                                | Mountainside Terraces                              | Sewer Entrance                      |
+| Basin                             | Flea Market                          | Mountaintop                                        | Sewers                              |
+| Basketball Arena                  | Flight School                        | Movie Filming Location                             | Shaft Mine                          |
+| Bathhouse                         | Floating Casino                      | Movie Studio                                       | Shanty Town                         |
+| Battle Field                      | Floating Crane (Ship)                | Movie Theatre                                      | Shantytown                          |
+| Battleship                        | Floating Dock                        | Moving Bridge                                      | Ship Taking on Water                |
+| Bay                               | Floating Drydock (Ship)              | Municipal Airport                                  | Shipping Warehouse                  |
+| Bayou                             | Flooded Bridge                       | Munitions Storage Facility                         | Shipwreck                           |
+| Beach House                       | Flooded Building, or Structure       | Museum                                             | Shipyard                            |
+| Beached Shipwreck                 | Flooded River                        | Museum of Natural Science                          | Shoals                              |
+| Beam Bridge                       | Florist or Flower shop               | Narrow Canyon                                      | Shoals & Banks                      |
+| Beauty Salon                      | Foot Bridge                          | National Historic Landmark                         | Shopping Center                     |
+| Bed & Breakfast                   | Football Stadium                     | National Park                                      | Shopping Mall                       |
+| Beneath a Bridge                  | Foothills                            | National Park Complex                              | Shrine                              |
+| Bermuda Triangle                  | Foreign Restaurant                   | Native American Reservation                        | Silver Mine                         |
+| Bible Institute                   | Forest                               | Native Holy Grounds                                | Sink                                |
+| Billiard Hall                     | Forest Fire                          | Natural Bridge                                     | Sinkhole                            |
+| Bluffs                            | Forested Hills                       | Natural Overlook                                   | Sinking Ship                        |
+| Boat Dealership                   | Fort                                 | Natural Spring                                     | Skateboard Rink                     |
+| Boat House                        | Fortified Bridge                     | Natural Wonder                                     | Skating Rink                        |
+| Boat Ramp                         | Fortified Underground Complex        | Naval Station                                      | Skating Rink                        |
+| Boat Taking on Water              | Fortress                             | Naval Supply Ship                                  | Ski Area                            |
+| Bog                               | Fraternity House                     | Neck                                               | Ski Lift                            |
+| Bookshop                          | Freight Train                        | Newspaper                                          | Ski Resort                          |
+| Border Crossing                   | Freighter (ship)                     | Nightclub                                          | Slaughterhouse                      |
+| Botanical Garden                  | Frontier Style Residence             | Nomad Camp                                         | Small Airport                       |
+| Bowling Alley                     | Funeral Home                         | Nuclear Attack Submarine                           | Small Apartment Complex             |
+| Box Canyon                        | Funeral in Progress                  | Nuclear Plant                                      | Small Canyon                        |
+| Brewery                           | Gambling Den                         | Nuclear Shelter Complex                            | Small Day Passenger Ship            |
+| Bridge                            | Game Management Area                 | Nuclear Testing Ground                             | Small Mesa                          |
+| Broadcast Tower                   | Game Preserve                        | Nunnery                                            | Small Office Building               |
+| Bull Fighting Ring                | Gap                                  | Nursing Home                                       | Small Open Boat                     |
+| Bungalow                          | Garage                               | Oasis                                              | Small Town                          |
+| Bunker                            | Garden                               | Observation Tower                                  | Small Waterfall                     |
+| Burial Mound                      | Gas Company                          | Observation Tower                                  | Smooth Pyramid                      |
+| Bus Depot                         | Gas Station                          | Observatory                                        | Snowfield                           |
+| Bus Station                       | Gas-Fired Power Plant                | Ocean Front Bar/Tavern                             | Snowy Crevasse                      |
+| Bus Stop                          | Gate                                 | Ocean Liner                                        | Solar Observatory                   |
+| Bus Terminal                      | General Cargo Ship                   | Ocean Storm                                        | Solar Power Plant                   |
+| Busy Intersection                 | Geological Park                      | Oceanfront Condominium                             | Solar System Exploration Facility   |
+| Butcher Shop                      | Geothermal Electric Plant            | Office Complex                                     | Sorority House                      |
+| Butte                             | Geothermal Park                      | Office Tower                                       | Spa                                 |
+| Cabaret/Supper Club               | Geyser Park                          | Oil & Gas Platform (Ocean)                         | Space Landing Facility              |
+| Cabin                             | Ghost Town                           | Oil & Gas Rig                                      | Space Launch Facility               |
+| Cable Company                     | Glacier                              | Oil Terminal                                       | Space Station                       |
+| Cable Television Company          | Glass-Bottomed Boat                  | Oilfield                                           | Spacecraft                          |
+| Cable-Stayed Bridge               | Gold Mine                            | Old Bank                                           | Spacecraft Repair Facility          |
+| Cafeteria                         | Gorge                                | Old Hotel                                          | Spanish Mission                     |
+| Caldera                           | Government Academy                   | Old Sailing Vessel                                 | Speedboat                           |
+| Campground                        | Government Office Building           | Old Theatre                                        | Sports Arena                        |
+| Camping Area                      | Government Office Complex            | Old Town                                           | Sports Hall of Fame                 |
+| Canal                             | Government Offices                   | Old Town Historical District                       | Stables                             |
+| Candy Factory                     | Grain Elevator                       | Old U-Boat (Submarine)                             | Stadium                             |
+| Cantilever Bridge                 | Grain Mill                           | Open Pit                                           | State Park                          |
+| Canyon Mouth                      | Grain Storage Bin                    | Open Pit Mine                                      | Station                             |
+| Cape                              | Grassy Heights                       | Opera Hall                                         | Steamship                           |
+| Car Wash                          | Gravel Road                          | Orchard                                            | Steel Manufacturing Plant           |
+| Cargo Aircraft                    | Greenhouse                           | Ossuary                                            | Steel Mill                          |
+| Cargo Container                   | Grocery Store                        | Outcropping                                        | Stepped Pyramid                     |
+| Cargo Plane                       | Grotto                               | Outdoor Concert                                    | Stockyard                           |
+| Cargo Terminal                    | Grove                                | Outer Space                                        | Store                               |
+| Carnival                          | Guard House                          | Outpost                                            | Strait or Sound                     |
+| Casino                            | Guard Station                        | Overnight Automobile/Passenger Ferry Ship          | Street                              |
+| Castle                            | Gulch                                | Package Terminal                                   | Strip Club                          |
+| Cathedral                         | Gun Shop                             | Packing Plant                                      | Strip Mall                          |
+| Causeway                          | Gymnasium                            | Pagoda                                             | Strip Mine                          |
+| Cave                              | Gymnasium                            | Palace                                             | Structural Rubble                   |
+| Caverns                           | Gymnastics Center                    | Parachute School                                   | Studio Back Lot                     |
+| Cemetery                          | Halfway House                        | Paranormal Institute                               | Sub-glacial Cave                    |
+| Cenote                            | Harbor                               | Park & Recreation Facility                         | Subterranean River                  |
+| Central Park                      | Harbormasters Office                 | Parking Garage                                     | Subway                              |
+| Chalet                            | Haunted House                        | Parking Lot                                        | Summer Camp                         |
+| Chamber of Commerce               | Haven                                | Parliament                                         | Survivalist Enclave                 |
+| Chapel                            | Haven                                | Partially Buried Pyramid                           | Suspension Bridge                   |
+| Chasm                             | Health Club                          | Passenger Cruise Ship                              | Swamp                               |
+| Checkpoint                        | Helicopter                           | Passenger Train                                    | Swimming Pool                       |
+| Chemical Dump                     | Helicopter Charter                   | Patrol Vessel                                      | Synagogue                           |
+| Chemical Plant                    | Helicopter Flight School             | Paved Airstrip                                     | Tanker (Ship)                       |
+| Chemical Storage Facility         | Heliport                             | Pavilion                                           | Tanning Salon                       |
+| Chemical Tanker Ship              | Heliport                             | Pawnbroker                                         | Tavern                              |
+| Chicken Farm                      | Hi-Rise Construction Site            | Performing Arts Awards Ceremony                    | Taxi Company                        |
+| Children's Hospital               | High Speed Patrol Boat               | Performing Arts Theatre                            | Technology Gallery                  |
+| Children's Museum                 | Hiking Trails                        | Pet Shop                                           | Telecommunication Center            |
+| Chinese Junk (Sailing Ship)       | Hilltop                              | Petroleum Manufacturing Facility                   | Teleconferencing Center             |
+| Chiropractic Clinic               | Historic District                    | Petroleum Storage Facility                         | Telephone Company                   |
+| Church                            | Historic Monument                    | Photography Lab                                    | Television Recording Studio         |
+| Church Camp                       | History Museum                       | Picnic Area                                        | Television Station                  |
+| Church Tower                      | Hole, or Open Pit                    | Pier                                               | Temple                              |
+| Cinema                            | Holiday or Major Public Gathering    | Pipeline Terminal                                  | Tents                               |
+| Circus                            | Hollow                               | Pizza Palace                                       | Terrarium                           |
+| Citadel                           | Homestead                            | Placer Mine                                        | Test Range                          |
+| Citrus Grove                      | Horn                                 | Plains or Grassland                                | Textiles Factory                    |
+| City                              | Horse Park                           | Plant Nursery                                      | Textiles Mill                       |
+| City Center                       | Horse Racing Track                   | Plant Nursery                                      | The Docks                           |
+| City Hall                         | Hospital                             | Plastics Factory                                   | Theme Park                          |
+| Civic Center                      | Hot Air Balloon                      | Plateau                                            | Tire Dump                           |
+| Clandestine Drug Lab              | Hot Springs                          | Playground                                         | Toll Booth                          |
+| Cliff                             | Hotel/Casino                         | Plaza                                              | Toll Road                           |
+| Clinic                            | Hunter/Killer Submarine              | Point                                              | Tomb                                |
+| Clock Tower                       | Hunting Lodge                        | Police Station                                     | Tool Shop                           |
+| Club House                        | Ice Pack                             | Police Sub-Station                                 | Tour Bus                            |
+| Coal Mine                         | Ice Plain                            | Political Party HQ                                 | Town Bridge                         |
+| Coal Processing Plant             | Iceberg                              | Political Rally                                    | Town Square                         |
+| Coal-Fired Power Plant            | Icebreaker Ship                      | Polluted Waterway                                  | Townhouse                           |
+| Coastal Game Preserve             | Illegal Fighting Pits                | Polo Club                                          | Toxic Waste Storage Facility        |
+| Coastal Island                    | Import/Export Warehouse              | Pond                                               | Trading Post                        |
+| Coastal Marsh                     | In the Eye of a Hurricane            | Pontoon Bridge                                     | Traffic Control Tower               |
+| Coastal Resort                    | Inactive Volcano                     | Pool                                               | Trail Crossing                      |
+| Coastal Shallows                  | Incline Mine                         | Pool Hall                                          | Trailer                             |
+| Coastline                         | Incomplete Bridge                    | Post Office                                        | Trailer park                        |
+| Cocktail Lounge                   | Indian Burial Grounds                | Post Office                                        | Trailhead                           |
+| Coffee House                      | Indian Reservation                   | Power Collection Array                             | Train Depot                         |
+| Collapsed Bridge                  | Indoor Arena                         | Power Substation                                   | Train Museum                        |
+| Collapsed Mine                    | Indoor Gun Range                     | Prep School                                        | Train Station                       |
+| Collapsed Tunnel                  | Industrial Equipment Supply          | Preparatory School                                 | Training Facility                   |
+| Collection Agency                 | Industrial Parts Plant               | Primitive Village                                  | Trash Company                       |
+| College                           | Industrial Plant                     | Print Shop                                         | Trash Dump                          |
+| Colonial Style Residence          | Inlet                                | Prison                                             | Travel Agency                       |
+| Combination Office/Warehouse      | Inn                                  | Prison Camp                                        | Treatment Center                    |
+| Commercial Construction Area      | Institute                            | Prison Medical Center                              | Tree Nursery                        |
+| Community Building                | Insurance Office                     | Private Beach                                      | Trolley                             |
+| Community College Complex         | Intelligence Agency                  | Private Golf Course                                | Truck Terminal                      |
+| Commuter Train                    | Interchange                          | Private Home                                       | Truck Terminal                      |
+| Concert Hall                      | International Airport                | Private Island                                     | Tug Boat                            |
+| Concrete, Sand, & Gravel Company  | Interstate or Highways               | Private Library                                    | Tundra                              |
+| Condominium Tower                 | Interstellar Exploration Facility    | Private Park                                       | Tunnel                              |
+| Conference                        | Intervention Center                  | Private School                                     | Tunnel Mine                         |
+| Construction Crane                | Island Keys                          | Processing Facility                                | Ultralight Aircraft School          |
+| Container Ship                    | Jail                                 | Protest March                                      | Underground Bunker Complex          |
+| Convenience Store                 | Jet Ski Terminal                     | Psychic Research Facility                          | Underground Garage                  |
+| Convent                           | Jetty                                | Pub                                                | Underground Mall                    |
+| Convention Center                 | Jewel Mine                           | Public Beach                                       | Underground Storage Facility        |
+| Coral Reef                        | Jewelry Shop                         | Public Ceremony                                    | Underground Stronghold              |
+| Correctional Institute Airport    | Junction                             | Public Gathering                                   | Undersea Tunnel                     |
+| Correctional Institution          | Jungle                               | Public Golf Course                                 | Underwater - Deep Sea               |
+| Country Club                      | Jungle Isle                          | Public Library                                     | Underwater -Coastal                 |
+| Country Store                     | Junkyard                             | Public Park                                        | Underwater Caves & Caverns          |
+| Courthouse                        | Karate Dojo                          | Publishing House                                   | Underwater Facility                 |
+| Cove                              | Kennel                               | Putt-Putt Golf Course                              | Underwater Kelp Farm                |
+| Covered Bridge                    | Kennel Club                          | Race Track                                         | Underwater Pen or Contained Area    |
+| Cow Camp                          | Kindergarten & Daycare               | Racetrack                                          | Underwater Preserve                 |
+| Crater                            | Knob                                 | Radio Station                                      | Underwater Research Facility        |
+| Credit Union                      | Labor Union                          | Radio Telescope                                    | Union Hall                          |
+| Crematorium                       | Laboratory                           | Radioactive Mine                                   | University                          |
+| Crystal Mine                      | Lagoon                               | Radioactive Waste Storage Facility                 | University Experimental Farm        |
+| Culinary Institute                | Lake                                 | Raft                                               | Unpaved Airstrip                    |
+| Cultural Museum                   | Lakefront Cabin                      | Rail Yard                                          | Unusual Rock Formation              |
+| Culvert                           | Landfill                             | Railcar Wash                                       | Urban Fire                          |
+| Cypress Swamp                     | Landing Craft (Ship)                 | Railway                                            | Urban Street                        |
+| Dairy Farm                        | Landing Strip                        | Railway Bridge                                     | Valley                              |
+| Dam                               | Large Apartment Complex              | Railway Platform                                   | Vast Antennae Array                 |
+| Dance Club                        | Large Canyon                         | Railway Station                                    | Vault                               |
+| Dance Hall                        | Large City Sewers                    | Railway Tunnel                                     | Vehicle Tire Store                  |
+| Dance Studio                      | Large Mesa                           | Ranch                                              | Victorian Residence                 |
+| Water Tower                       | Water Trail                          | Waterfront Commercial                              | Waterfront Industrial               |
+| Waterfront Restaurant             | Watermill                            | Watershed                                          | Waterworks                          |
+| Wax Museum                        | Weapons Laboratory                   | Wedding Hall                                       | Wedding in Progress                 |
+| Welcome Center                    | Welding Equipment Store              | Well                                               | Well House                          |
+| Whaling Boat                      | Whitewater Rapids                    | Wide Canyon                                        | Wild Animal Park                    |
+| Wilderness Park                   | Wildlife Refuge                      | Wildlife Rehabilitation Center                     | Wildlife Sanctuary                  |
+| Windmill                          | Winery                               | Woodshop                                           | Workshop                            |
+| Worlds Fair                       | Wreck                                | Yacht                                              | Yacht & Country Club                |
+| Yacht Center                      | Yacht Harbor                         | Yacht Show                                         | Youth Camp                          |
+| Youth Center                      | Zoo                                  |                                                    |                                     |
+
+
+
+
+
+* New Ideas
+** Central map vs abstracted location cards
+*** Spatial map could do a few things
+- Alleviate the fiddlyness of multiple bags
+- Introduce Fuel as a resource
+- Enable a central city with higher levels of risk reward vs surrounding sparse areas with medium risk reward vs internal base actions which are low to no risk.
+*** How would it work?
+Each location tile would include
+New version of exploration incorporates some new ideas
+** Updated Exploration
+**** Heros gained via Explore
+Heros can be claimed "out in the world" but incur a cost. i.e. more zombies on the zombie track
+**** Exploration flow chart
+:LOGBOOK:
+CLOCK: [2023-01-23 Mon 13:52]--[2023-01-23 Mon 13:52] =>  0:00
+:END:
+
+#+ATTR_ORG :width: 200px
+[[./images/Exploration Flowchart.jpg]]
+>>>>>>> parent of d735b38 (Setup Basic Rules Outline)
