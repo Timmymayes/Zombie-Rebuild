@@ -1,6 +1,6 @@
 * Design Timeline & Notes
 ** Timeline
-| Date        | Design Phase            | Milestone                   | Note / Link                                                              |
+| Date        | Design Phase            | Milestone                   | Notes                                                                              |
 |-------------+-------------------------+-----------------------------+------------------------------------------------------------------------------------|
 | May 01 2020 | Ideation                | Initial Design Idea         | Exact date not known                                                               |
 | Jun 07 2020 | Prototype - Initial     | Component Types decided     | Ideation tool for expanding the design                                             |
@@ -12,19 +12,19 @@
 | Nov 29 2021 | Prototype - Development | Added 3d Printed Components | Implemented better components and solo playable                                    |
 | Feb 10 2022 | Prototype - Development | Full building set complete  | Game is now ready for solo playtesting                                             |
 | Jun 12 2022 | Playtest - Local        | Second 2p Test with Jordan  | Good feedback on research points.                                                  |
-| Sep 09 2022 | Playtest - Local        | First 4p Playtest           | [[file:~/Game Designs/Zombie Rebuild/playtests/2022-9-9-playtest-8.org::*Playtest 8][4p Playtest]] Josh, Jordan and Nick. Lots of good feedback. Major Course correction |
-| Mar 06 2023 | Design                  | Major Rework                | [[Dice Tower Development]]                                                             |
+| Sep 09 2022 | Playtest - Local        | First 4p Playtest           | Played with Josh, Jordan and Nick. Lots of good feedback. Major Course correction  |
+|             |                         |                             |                                                                                    |
 |             |                         |                             |                                                                                    |
 |             |                         |                             |                                                                                    |
 |             |                         |                             |                                                                                    |
 
 
-* Dice Tower Development
-- Population will be represented by actual people with very basic stat lines.
-- Basic buildings available to all, more advanced buildings must be found
-- Players play until somoene's colony collapses
-- Variety of "suits" used as prereqs for various things
-- Zombie Tracker for Zimbabwe style VR type mechanism.
-- Adjust meeple types. 
-  
+
+
+
+
+* Initial Prototype Images
+- [[file:images/initial-prototype.jpg]]
+- [[file:images/initial-prototype-02.jpg]]
+
 

@@ -3,7 +3,6 @@ Friday, September 9th 2022
 #+Name: Participant
 | Jordan | Nick | Josh | Tyler |
 
-#+ATTR_ORG: :width 250px
 [[file:images/4-player-setup.jpg]]
 
 ** Overview
