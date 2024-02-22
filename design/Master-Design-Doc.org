@@ -35,8 +35,6 @@ The game's resource types come in both a basic and advanced form. The basic use 
 #+ATTR_HTML: :width: 30px
 #+ATTR_ORG: :width 30px
 [[./images/resource-food.png]] [[./images/resource-medicine.png]] [[./images/resource-ammo.png]] [[./images/resource-zombie.png]] [[./images/resource-building.png]] [[./images/resource-population.png]]
-<<<<<<< HEAD
-=======
 
 
 ** Buildings
@@ -320,11 +318,3 @@ New version of exploration incorporates some new ideas
 ** Updated Exploration
 **** Heros gained via Explore
 Heros can be claimed "out in the world" but incur a cost. i.e. more zombies on the zombie track
-**** Exploration flow chart
-:LOGBOOK:
-CLOCK: [2023-01-23 Mon 13:52]--[2023-01-23 Mon 13:52] =>  0:00
-:END:
-
-#+ATTR_ORG :width: 200px
-[[./images/Exploration Flowchart.jpg]]
->>>>>>> parent of d735b38 (Setup Basic Rules Outline)

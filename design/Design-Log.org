@@ -1,22 +1,24 @@
+# -*- visual-fill-column-width: 220; -*-
+
 * Design Timeline & Notes
 ** Timeline
-| Date        | Design Phase            | Milestone                   | Notes                                                                              |
-|-------------+-------------------------+-----------------------------+------------------------------------------------------------------------------------|
-| May 01 2020 | Ideation                | Initial Design Idea         | Exact date not known                                                               |
-| Jun 07 2020 | Prototype - Initial     | Component Types decided     | Ideation tool for expanding the design                                             |
-| Nov 22 2020 | Prototype - Initial     | Intial Components built     | Locking in mechanisms & representing them                                          |
-| Sep 05 2021 | Playtest - Local        | First 3p Playtest           | Played with Jim & Sandra - Good feedback from both. Best idea. Multi-size building |
-| Sep 12 2021 | Playtest - Solo         | 2-handed test               | Dialing in multi-size buildings                                                    |
-| Aug 23 2021 | Playtest - Local        | First 2p Test with Jordan   | Good feedback, requested more use of scientist / research.                         |
-| Oct 15 2021 | Prototype - Development | Building design Update      | multi-sized buildings look nice                                                    |
-| Nov 29 2021 | Prototype - Development | Added 3d Printed Components | Implemented better components and solo playable                                    |
-| Feb 10 2022 | Prototype - Development | Full building set complete  | Game is now ready for solo playtesting                                             |
-| Jun 12 2022 | Playtest - Local        | Second 2p Test with Jordan  | Good feedback on research points.                                                  |
-| Sep 09 2022 | Playtest - Local        | First 4p Playtest           | Played with Josh, Jordan and Nick. Lots of good feedback. Major Course correction  |
-|             |                         |                             |                                                                                    |
-|             |                         |                             |                                                                                    |
-|             |                         |                             |                                                                                    |
-|             |                         |                             |                                                                                    |
+| Date        | Design Phase              | Milestone                         | Notes                                                                              |
+|-------------+---------------------------+-----------------------------------+------------------------------------------------------------------------------------|
+| May 01 2020 | Ideation                  | Initial Design Idea               | Exact date not known                                                               |
+| Jun 07 2020 | Prototype - Initial       | Component Types decided           | Ideation tool for expanding the design                                             |
+| Nov 22 2020 | Prototype - Initial       | Intial Components built           | Locking in mechanisms & representing them                                          |
+| Sep 05 2021 | Playtest - Local          | First 3p Playtest                 | Played with Jim & Sandra - Good feedback from both. Best idea. Multi-size building |
+| Sep 12 2021 | Playtest - Solo           | 2-handed test                     | Dialing in multi-size buildings                                                    |
+| Aug 23 2021 | Playtest - Local          | First 2p Test with Jordan         | Good feedback, requested more use of scientist / research.                         |
+| Oct 15 2021 | Prototype - Development   | Building design Update            | multi-sized buildings look nice                                                    |
+| Nov 29 2021 | Prototype - Development   | Added 3d Printed Components       | Implemented better components and solo playable                                    |
+| Feb 10 2022 | Prototype - Development   | Full building set complete        | Game is now ready for solo playtesting                                             |
+| Jun 12 2022 | Playtest - Local          | Second 2p Test with Jordan        | Good feedback on research points.                                                  |
+| Sep 09 2022 | Playtest - Local          | First 4p Playtest                 | Played with Josh, Jordan and Nick. Lots of good feedback. Major Course correction  |
+| Feb 17 2024 | Playtest - Tuesday Gfroup | Testing Nick's big rework         | Main issue was zombie track build up. It just becomes too transactional and large  |
+| Feb 18 2024 | Playtest - Octoraffe      | 2p Test to tweak Zombie track Arc | Introduced an ARKHAM LCG bag mechanic for zombie tracker and it worked really well |
+|             |                           |                                   |                                                                                    |
+|             |                           |                                   |                                                                                    |
 
 
 
@@ -27,4 +29,48 @@
 - [[file:images/initial-prototype.jpg]]
 - [[file:images/initial-prototype-02.jpg]]
 
+* V.02 -
+** Played with Nick @ his place with new changes
+*** Goal
+- Increase the decision vectors on what you want to solve problems.
+- Original version was too on rails
+- Came up with lots of ways to survive little scoring
+*** Change Log
+**** Grid chnages
+- 3x3 instead of 2 by 2
+  |          | Healthy | Sick | Critical |
+  | Fed      |       2 |    1 |        1 |
+  | Hungry   |       1 |    1 |        1 |
+  | Starving |       1 |    1 |        1 |
+- Ammo doubles fight value
+- Only Healthy Fed can be allocated
+**** Order of Operations
+0. Allocate
+1. Building
+2. Rummage
+3. Camp
+4. Fight
+5. Become Hungry
+6. Return people at camp (to hungry)
+7. Return people from rummage
+8. Queue Zombies for next round
+9. Increase Zombie track
+**** Player board has a camp map and locations for allocating
+***** This is used as a minimap for assigning your workers/actions
+***** Recruit leader space as well (used 1x)
+**** Leaders and Citizens get "meeples" with activation numbers for determining resolution order.
+**** Location changes
+- Distribution is more spikey
+- Varied # of max depleted tokens for wiping
+- each location gets varibale # of *citizens*, May be taken instead of drawing tokens.
+- Locations are "suited" to the resources types
+- # of locations change based on player count
+- 
+**** Buildings now come out on a carousel
+**** 
+*** Playtest notes
+The tension of surviving felt about right but we need to tweak it for increased early economy to build. 
+
+- Ramp up of zombie track being +1 vs larger gapping felt great.
+- 
 

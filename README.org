@@ -3,6 +3,8 @@
 
 Players will scavenge for resources, construct buildings and other add-ons to improve their colony and defend agaisnt an increasing onslaught of zombies.
 
+Updated. 
+
 [[file:images/base-setup-01.jpg]]
 
 * Rule Summary
