@@ -36,7 +36,7 @@
 - Original version was too on rails
 - Came up with lots of ways to survive little scoring
 *** Change Log
-**** Grid chnages
+**** Grid changes
 - 3x3 instead of 2 by 2
   |          | Healthy | Sick | Critical |
   | Fed      |       2 |    1 |        1 |
